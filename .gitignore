@@ -1,2 +1,9 @@
 *.class
 *.log
+target
+*.jar
+*.aar
+*.zip
+node_modules
+/www
+/classes/
