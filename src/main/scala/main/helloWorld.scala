@@ -20,7 +20,7 @@ object helloWorld {
   def main(args: Array[String]) {
     val spark = SparkSession.
       builder().
-      appName("uciEvasaoInvestDiariaPF").
+      appName("helloWorld").
       enableHiveSupport().
       getOrCreate();
 
