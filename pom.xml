@@ -9,8 +9,8 @@
 	<properties>
 		<encoding>UTF-8</encoding>
 		<!-- Scala version of the cluster -->
-		<scala.version>2.11.11</scala.version>
-		<scala.binary.version>2.11</scala.binary.version>
+		<scala.version>2.12.12</scala.version>
+		<scala.binary.version>2.12</scala.binary.version>
 	</properties>
 
 	<dependencies>
@@ -23,34 +23,34 @@
 		<!-- https://mvnrepository.com/artifact/org.apache.spark/spark-core -->
 		<dependency>
 			<groupId>org.apache.spark</groupId>
-			<artifactId>spark-core_2.11</artifactId>
-			<version>2.3.1</version>
+			<artifactId>spark-core_2.12</artifactId>
+			<version>2.4.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.spark/spark-sql -->
 		<dependency>
 			<groupId>org.apache.spark</groupId>
-			<artifactId>spark-sql_2.11</artifactId>
-			<version>2.3.3</version>
+			<artifactId>spark-sql_2.12</artifactId>
+			<version>2.4.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.spark/spark-hive -->
 		<dependency>
 			<groupId>org.apache.spark</groupId>
-			<artifactId>spark-hive_2.11</artifactId>
-			<version>2.3.3</version>
+			<artifactId>spark-hive_2.12</artifactId>
+			<version>2.4.0</version>
 			<scope>provided</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.spark/spark-mllib -->
 		<dependency>
 			<groupId>org.apache.spark</groupId>
-			<artifactId>spark-mllib_2.11</artifactId>
-			<version>2.3.3</version>
+			<artifactId>spark-mllib_2.12</artifactId>
+			<version>2.4.0</version>
 			<scope>runtime</scope>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.spark/spark-streaming -->
 		<dependency>
 			<groupId>org.apache.spark</groupId>
-			<artifactId>spark-streaming_2.11</artifactId>
-			<version>2.3.3</version>
+			<artifactId>spark-streaming_2.12</artifactId>
+			<version>2.4.0</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
